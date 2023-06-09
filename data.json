@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "imgQuestion": "aceh",
+        "imgAnswer": "aceh",
+        "question": "Logo diatas merupakan logo dari provinsi?",
+        "options": ["Aceh", "Kalimantan Timur", "Banten", "Papua Barat"],
+        "answer": "Aceh"
+    }
+]
