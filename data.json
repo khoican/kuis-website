@@ -1,10 +1,42 @@
 [
     {
         "id": 1,
-        "imgQuestion": "aceh",
-        "imgAnswer": "aceh",
+        "imgQuestion": "aceh.png",
+        "imgAnswer": "aceh.png",
         "question": "Logo diatas merupakan logo dari provinsi?",
         "options": ["Aceh", "Kalimantan Timur", "Banten", "Papua Barat"],
         "answer": "Aceh"
+    },
+    {
+        "id": 2,
+        "imgQuestion": "banten.png",
+        "imgAnswer": "banten.png",
+        "question": "Logo diatas merupakan logo dari provinsi?",
+        "options": ["Kalimantan Utara", "Jawa Tengah", "Riau", "Banten"],
+        "answer": "Banten"
+    },
+    {
+        "id": 3,
+        "imgQuestion": "jatim.png",
+        "imgAnswer": "jatim.png",
+        "question": "Logo diatas merupakan logo dari provinsi?",
+        "options": ["Maluku Utara", "Nusa Tenggara Barat", "Jawa Timur", "Jawa Barat"],
+        "answer": "Jawa Timur"
+    },
+    {
+        "id": 4,
+        "imgQuestion": "sulut.png",
+        "imgAnswer": "sulut.png",
+        "question": "Logo diatas merupakan logo dari provinsi?",
+        "options": ["Sulawesi Utara", "Kalimantan Barat", "Bangka Belitung", "Lampung"],
+        "answer": "Sulawesi Utara"
+    },
+    {
+        "id": 5,
+        "imgQuestion": "bali.png",
+        "imgAnswer": "bali.png",
+        "question": "Logo diatas merupakan logo dari provinsi?",
+        "options": ["Yogyakarta", "Sumatera Barat", "Bali", "Banten"],
+        "answer": "Bali"
     }
 ]
