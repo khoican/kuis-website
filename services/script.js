@@ -18,13 +18,14 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout( () => {
             corouselItem[0].classList.add('top-[-350px]')
             corouselItem[1].classList.add('top-[-350px]')
-        },4500)
+        },2500)
 
         setTimeout( () => {
             corouselItem[1].classList.add('top-[-700px]')
             corouselItem[2].classList.add('top-[-700px]')
-        },11000)
+        },9000)
 
     }
     corousel()
+    
 })

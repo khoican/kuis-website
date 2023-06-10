@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./../css/output.css">
+    <link rel="stylesheet" href="./../css/style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="bg-lapizBlue w-auto h-screen p-10">
+        <h1 class="font-bold text-white text-lg">Pertanyaan</h1>
+
+        <div class="my-10 h-2/4 flex justify-center" id="image"></div>
+
+        <p class="text-white text-lg font-medium text-center" id="question">Logo diatas merupakan logo dari provinsi?</p>
+
+        <div class="flex gap-3 my-10" id="option">
+            <label for="aceh" class="px-5 py-3 bg-hunyadiYellow rounded-lg text-white text-xl font-semibold tracking-widest drop-shadow-btn hover:bg-pentatonOrange grow text-center">
+                <input type="radio" name="" class="option" id="aceh" value="Aceh"> Aceh
+            </label>
+            <label for="banten" class="px-5 py-3 bg-hunyadiYellow rounded-lg text-white text-xl font-semibold tracking-widest drop-shadow-btn hover:bg-pentatonOrange grow text-center">
+                <input type="radio" name="" class="option" id="banten" value="Banten"> Banten
+            </label>
+            <label for="jatim" class="px-5 py-3 bg-hunyadiYellow rounded-lg text-white text-xl font-semibold tracking-widest drop-shadow-btn hover:bg-pentatonOrange grow text-center">
+                <input type="radio" name="" class="option" id="jatim" value="Jatim"> Jawa Timur
+            </label>
+            <label for="kaltim" class="px-5 py-3 bg-hunyadiYellow rounded-lg text-white text-xl font-semibold tracking-widest drop-shadow-btn hover:bg-pentatonOrange grow text-center">
+                <input type="radio" name="" class="option" id="kaltim" value="Kaltim"> Kalimantan Timur
+            </label>
+        </div>
+    </div>
+
+    <section class="absolute top-0 left-0 w-screen h-screen justify-center items-center backdrop-blur-md hidden" id="modal-benar">
+        <div class="bg-white p-10 rounded-lg drop-shadow-md flex flex-col justify-center">
+            <h1 class="font-bold text-lg text-center tracking-wider">JAWABAN BENAR</h1>
+            <img src="./../assets/images/answer/aceh.png" alt="" class="w-48 my-6">
+            <p class="font-medium text-center">Nangroe Aceh Darussalam</p>
+            <a href="" class="px-5 py-3 bg-hunyadiYellow rounded-lg text-white text-xl font-semibold tracking-widest hover:bg-pentatonOrange text-center mt-5">Lanjutkan</a>
+        </div>
+    </section>
+
+    <section class="absolute top-0 left-0 w-screen h-screen justify-center items-center backdrop-blur-md hidden" id="modal-salah">
+        <div class="bg-white p-10 rounded-lg drop-shadow-md flex flex-col justify-center">
+            <h1 class="font-bold text-lg text-center tracking-wider">JAWABAN SALAH</h1>
+            <a href="" class="px-5 py-3 bg-hunyadiYellow rounded-lg text-white text-xl font-semibold tracking-widest hover:bg-pentatonOrange text-center mt-5">Coba Lagi</a>
+        </div>
+    </section>
+
+    <script src="./../services/quiz.js"></script>
+</body>
+</html>
