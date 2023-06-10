@@ -766,6 +766,10 @@ video {
   display: none;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1707,6 +1711,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-lapizBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 101 138 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1871,6 +1880,10 @@ video {
 
 .align-super {
   vertical-align: super;
+}
+
+.font-Poppins {
+  font-family: Poppins;
 }
 
 .font-bold {
