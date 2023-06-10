@@ -16,9 +16,20 @@
 </head>
 <body>
     
-    <div class="bg-lapizBlue font-Poppins h-screen w-100 flex items-center justify-center overflow-hidden">
-        <img src="./assets/images/maps-white.png" alt="">
+    <div class="bg-lapizBlue font-Poppins h-screen w-100 flex items-center justify-center overflow-hidden transition ease-in-out duration-500" id="corousel">
+        <div class="w-[60%] max-h-[350px] flex flex-col items-center overflow-hidden">
+            <div class="corousel-item relative w-full min-h-[350px] overflow-hidden">
+                <img src="./assets/images/maps-white.png" alt="" class="w-full relative">
+            </div>
+            <div class="corousel-item relative w-full min-h-[350px] flex justify-center items-center">
+                <h1 class="text-4xl font-extrabold text-white tracking-widest drop-shadow-md text-center relative" id="typing-text"></h1>
+            </div>
+            <div class="corousel-item relative w-full min-h-[350px] flex justify-center items-center">
+                <a href="" class="px-5 py-3 bg-pentatonOrange rounded-lg text-white text-xl font-semibold tracking-widest drop-shadow-btn hover:drop-shadow-hover hover:top-[-5px] relative">Mulai Main</a>
+            </div>
+        </div>
     </div>
 
+    <script src="./services/script.js"></script>
 </body>
 </html>
